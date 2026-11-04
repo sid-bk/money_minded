@@ -1,3 +1,29 @@
+# Personal financial data: never committed. A fresh clone gets these files
+# from the *.example.* templates on the first run of budget.sh.
+statements/
+imports/
+ledger/history.beancount
+ledger/balances.beancount
+ledger/transactions/
+config/importers.toml
+config/merchants.beancount
+config/budgets.beancount
+
+# Personal notes: balances, debts, the budget plan and account numbers.
+docs/technical/status.md
+docs/technical/build_checklist.md
+docs/technical/finance_model.md
+docs/technical/decisions.md
+
+# Machine-local
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+.env
+.env.*
+
+# ---- GitHub Python template ----
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
